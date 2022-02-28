@@ -8,11 +8,13 @@
       <input class="search-box" placeholder="Procure algo para assistir" />
       <button class="empty-button"><i class="bi bi-search icon"></i></button>
     </div>
-    <img
-      src="https://github.com/Redwars22.png"
-      width="40"
-      class="author-photo"
-    />
+    <a href="https://redwars22.github.io/Website/">
+      <img
+        src="https://github.com/Redwars22.png"
+        width="40"
+        class="author-photo"
+      />
+    </a>
   </div>
 </template>
 
@@ -52,6 +54,11 @@ export default {
   border: 1px solid lightgrey;
   border-radius: 5px;
   width: fit-content;
+  opacity: 0.2;
+}
+
+.form:hover {
+  opacity: 1;
 }
 
 .author-photo {

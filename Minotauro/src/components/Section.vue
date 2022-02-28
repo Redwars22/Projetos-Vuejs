@@ -108,4 +108,10 @@ h1 {
 i {
   margin-top: -5px;
 }
+
+@media (min-width: 800px){
+  .thumbnail {
+    width: 250px;
+  }
+}
 </style>

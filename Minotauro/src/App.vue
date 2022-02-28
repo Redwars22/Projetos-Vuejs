@@ -39,12 +39,18 @@ export default {
   text-align: center;
   color: #2c3e50;
   background: rgb(255, 255, 255);
+  margin: 0px;
   background: linear-gradient(
     193deg,
     rgba(255, 255, 255, 1) 1%,
     rgba(228, 228, 228, 0.9262079831932774) 49%,
     rgba(204, 0, 0, 0.06626400560224088) 100%
   );
+}
+
+hr {
+  opacity: 0.1;
+  border: 0.5px dashed #cc0000;
 }
 
 main {
@@ -55,11 +61,14 @@ main {
 
 @media (min-width: 800px) {
   #app {
-    padding: 50px;
+    padding: 8px;
+    height: 98.5vh;
   }
 
   main {
-    max-height: 60vh;
+    max-height: 74vh;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 </style>
