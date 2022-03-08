@@ -7,7 +7,7 @@
 
 | Ícone | Nome | Descrição | Executar |
 |--- |--- |--- |--- |
-| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/minotauro.png"/> | **Minotauro**| A interface de um site de compartilhamento de vídeos, inspirado no YouTube, feita em Vue.js e Bootstrap | **[EM BREVE]** |
+| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/minotauro.png" width="70px"/> | **Minotauro**| A interface de um site de compartilhamento de vídeos, inspirado no YouTube, feita em Vue.js e Bootstrap | **[EXECUTAR](https://project-mammoth.firebaseapp.com/?43591)** |
 
 <hr/>
 
