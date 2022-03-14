@@ -41,12 +41,37 @@
 export default {
   name: 'LeftMenu',
   methods: {
-    /*Gerenciamento de dados*/
-    saveData() {},
+    saveData() {
+      let textEditor = document.getElementById('text-editor');
+      localStorage.setItem('app-data', textEditor.innerText);
+    },
 
-    retrieveData() {},
+    retrieveData() {
+      let textEditor = document.getElementById('text-editor');
+      let toOpenAndReplace = true;
 
-    deleteData() {},
+      if (textEditor.innerText != '') {
+        toOpenAndReplace = window.confirm(
+          'Deseja abrir o texto salvo e substituir o que está na caixa de texto?'
+        );
+      }
+
+      if (toOpenAndReplace) {
+        let text = localStorage.getItem('app-data');
+        textEditor.innerText = text;
+      }
+    },
+
+    deleteData() {
+      let toDeleteOrNot = window.confirm(
+        'Certeza de que deseja deletar? O PROCESSO É IRREVERSÍVEL!!!'
+      );
+      if (toDeleteOrNot) {
+        localStorage.removeItem('app-data');
+        let textEditor = document.getElementById('text-editor');
+        textEditor.innerText = '';
+      }
+    },
 
     /*Alinhamento do texto*/
     alignLeft() {
