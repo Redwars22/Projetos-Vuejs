@@ -10,7 +10,7 @@
       src="https://redwars22.github.io/Projetos-Vuejs/resx/typograph.png"
       width="25px"
     />
-    <span>Project Typograph 2022 (ALPHA)</span>
+    <span>Project Typograph 2022 (BETA)</span>
     <div class="author-badge"></div>
   </div>
 </template>
@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style>
+span {
+  font-size: 13px;
+}
+
 .header {
   border: 2px solid #383838;
   border-top-left-radius: 9px;

@@ -1,3 +1,11 @@
+<!--
+  TO-DO LIST
+  ==1-RESET BUTTON
+  2-SAVE, OPEN, DELETE DATA
+  ==3-LINK TO MY PORTFOLIO
+  4-ESCREVER GUIA DE AJUDA
+-->
+
 <template>
   <div id="app">
     <AppHeader />
@@ -30,7 +38,7 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -47,6 +55,6 @@ main {
   border: 2px solid #383838;
   display: grid;
   place-items: center;
-  grid-template-columns: 3% 72% 25%;
+  grid-template-columns: 3% 71% 26%;
 }
 </style>
