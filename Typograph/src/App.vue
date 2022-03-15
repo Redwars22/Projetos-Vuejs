@@ -1,11 +1,3 @@
-<!--
-  TO-DO LIST
-  ==1-RESET BUTTON
-  2-SAVE, OPEN, DELETE DATA
-  ==3-LINK TO MY PORTFOLIO
-  4-ESCREVER GUIA DE AJUDA
--->
-
 <template>
   <div id="app">
     <AppHeader />
