@@ -10,8 +10,7 @@
       src="https://redwars22.github.io/Projetos-Vuejs/resx/typograph.png"
       width="25px"
     />
-    <span>Project Typograph 2022 (BETA)</span>
-    <div class="author-badge"></div>
+    <span>Project Typograph 2022</span>
   </div>
 </template>
 

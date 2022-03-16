@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
 import AppHeader from './components/AppHeader.vue';
 import TextArea from './components/TextArea.vue';
 import LeftMenu from './components/LeftMenu.vue';
@@ -19,7 +18,6 @@ import RightMenu from './components/RightMenu.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     AppHeader,
     TextArea,
     LeftMenu,

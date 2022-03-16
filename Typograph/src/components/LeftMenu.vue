@@ -141,6 +141,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom-left-radius: 10px;
 }
 
 .bi {

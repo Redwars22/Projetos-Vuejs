@@ -45,7 +45,7 @@
         <i class="bi bi-trash"></i> RESETAR
       </button>
     </div>
-    <a href="https://github.com/Redwars22">
+    <a href="https://github.com/Redwars22" class="author-badge-container">
       <div class="author-badge">
         <div class="author-badge-text-container">
           <h2 class="author-smaller-text">Desenvolvido por</h2>
@@ -108,8 +108,7 @@ export default {
   padding: 8px;
   margin: 10px;
   gap: 5px;
-  margin-top: 145px;
-  margin-bottom: -145px;
+  margin-top: 120px;
   border-radius: 10px;
   color: black;
   transition: background-color 450ms;
