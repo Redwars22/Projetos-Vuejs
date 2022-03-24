@@ -1,44 +1,38 @@
 <template>
   <div id="app">
-    <div class="left-bar">
-      <img
-        src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/keystone.png"
-        width="50px"
-      />
-      <div class="menu">
-        <i class="bi bi-gear"></i>
-        <i class="bi bi-info-circle"></i>
-        <i class="bi bi-help"></i>
-        <i class="bi bi-question-circle"></i>
-        <i class="bi bi-trash"></i>
-        <i class="bi bi-pencil"></i>
-        <i class="bi bi-file-lock"></i>
-      </div>
-      <p>Versão x.x.x ALPHA</p>
+    <LeftBar />
+    <div class="right-bar">
+      <TextEditor />
+      <NotesView />
     </div>
-    <div class="right-bar"></div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import TextEditor from './components/main/TextEditor.vue';
+import NotesView from './components/main/NotesView.vue';
+import LeftBar from './components/leftbar/LeftBar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    TextEditor,
+    NotesView,
+    LeftBar,
   },
 };
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 body {
   margin: 0;
   padding: 0;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Patrick Hand', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -51,31 +45,31 @@ body {
 }
 
 .bi {
-  color: white;
+  color: #d70342;
   font-size: 30px;
-}
-
-.left-bar {
-  background-color: #0a0909;
-  border-right: 3px dashed #7b032e;
-  width: 7vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  justify-content: space-evenly;
 }
 
 .right-bar {
   background-color: #070011;
   width: 93vw;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  #app {
+    flex-direction: column;
+  }
+
+  .right-bar {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .bi {
+    font-size: 23px;
+  }
 }
 </style>
