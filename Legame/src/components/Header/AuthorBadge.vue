@@ -1,8 +1,14 @@
 <template>
-  <div class="author-badge">
-    <span>Desenvolvido por</span>
-    <img src="https://github.com/Redwars22.png" class="author-photo" />
-  </div>
+  <a
+    href="https://github.com/Redwars22"
+    style="text-decoration: none"
+    target="_blank"
+  >
+    <div class="author-badge">
+      <span>Desenvolvido por</span>
+      <img src="https://github.com/Redwars22.png" class="author-photo" />
+    </div>
+  </a>
 </template>
 
 <script>
@@ -22,6 +28,14 @@ export default {
   font-size: 13px;
   gap: 10px;
   color: white;
+  /*transition: background-color 600ms;*/
+  transition: transform 600ms;
+}
+
+.author-badge:hover {
+  background-color: purple;
+  font-weight: bold;
+  transform: rotate(360deg);
 }
 
 .author-photo {
