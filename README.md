@@ -1,47 +1,22 @@
-<img src="https://redwars22.github.io/Projetos-Vuejs/resx/legame.png" width="" height="">
+<center>
+    <img src="https://www.ideematic.com/wp-content/uploads/2018/05/logo-Vue-JS.png" width="150px"/>
+</center>
 
-## PORTUGUÊS(BRASIL)
-
-### DESCRIÇÃO
-
-O ProjectLegame é uma aplicação web de design de botões simples e fácil de usar. Construído com Vue.js, pode ser acessado a partir de qualquer navegador, sistema operacional e dispositivo compatíveis.
-
-### FUNCIONALIDADES
-
-- Criar botões e personalizar suas cores, fontes e etc.
-- Testar códigos e scripts JavaScript sem precisar sair do Legame.
-
-### FERRAMENTAS USADAS
-
-- SweetAlert2
-- Bootstrap
-- Vue.Js
-
-### REQUISITOS MÍNIMOS
-
-- Windows, Linux, MacOS, Android etc. preferencialmente em suas versões mais recentes
-- Navegador Firefox, Chrome, Edge etc. compatíveis com JavaScript e preferencialmente atualizados
-
+***Repositório de projetos em Vue.js***
 <hr/>
 
-## ENGLISH
+| Ícone | Nome | Descrição | Executar |
+|--- |--- |--- |--- |
+| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/keystone.png" width="70px"/> | **Keystone**| O Project Keystone é um bloco de notas fácil de usar e que funciona em qualquer dispositivo/sistema operacional que tenha suporte a JavaScript e HTML | **[EXECUTAR](https://keystone-a4baa.firebaseapp.com/?101608)** |
+| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/minotauro.png" width="70px"/> | **Minotauro**| A interface de um site de compartilhamento de vídeos, inspirado no YouTube, feita em Vue.js e Bootstrap | **[EXECUTAR](https://project-mammoth.firebaseapp.com/?43591)** |
+| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/typograph.png" width="70px"/> | **Typograph**| O Typograph é uma aplicação que serve tanto como editor de texto quanto como um lugar em que você pode pré-visualizar como o texto ficaria com base no plano de fundo (cor ou imagem) e outros fatores como, por exemplo, opacidade. | **[EXECUTAR](https://project-typograph.firebaseapp.com/?108005)** |
+| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/alwaqt.png" width="70px"/> | **Alwaqt**| Conversor de milissegundo para segundo e vice-versa feito com Bootstrap e Vue.js | **[EXECUTAR](https://project-alwaqt.firebaseapp.com/?82418)** |
+| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/legame.png" width="70px"/> | **Legame**| Editor de botões feito com Bootstrap e Vue.js | **[EXECUTAR]()** |
+<hr/>
+<hr/>
 
-### DESCRIPTION
-
-ProjectLegame is a simple and easy-to-use web app to design buttons. Built with Vue.js, you can access it from any compatible browser, operating system and device.
-
-### FEATURES
-
-- Create buttons and personalize its colors, fonts, etc.
-- Test JavaScript code snippets and scripts without needing to exit Legame.
-
-### TOOLS I USED TO BUILD IT
-
-- SweetAlert2
-- Bootstrap
-- Vue.Js
-
-### MINIMUM REQUIREMENTS
-
-- Windows, Linux, MacOS, Android etc. optimally the most recent version.
-- Navegador Firefox, Chrome, Edge etc. compatible with JavaScript and updated with the last version.
+### 🔗LINKS DE OUTROS REPOSITÓRIOS
+- [REPOSITÓRIO I DE PROJETOS ANGULAR E REACT](https://github.com/Redwars22/Portfolio)
+- [REPOSITÓRIO II DE PROJETOS ANGULAR E REACT](https://github.com/Redwars22/Projetos-Web-2)
+- [REPOSITÓRIO III DE PROJETOS ANGULAR E REACT](https://github.com/Redwars22/Projetos-Web-3)
+- [REPOSITÓRIO DE PROJETOS JAVA, C++, C, PYTHON ETC.](https://github.com/Redwars22/Projetos-C-Java-Cpp-Python)
