@@ -11,7 +11,7 @@
 | <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/minotauro.png" width="70px"/> | **Minotauro**| A interface de um site de compartilhamento de vídeos, inspirado no YouTube, feita em Vue.js e Bootstrap | **[EXECUTAR](https://project-mammoth.firebaseapp.com/?43591)** |
 | <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/typograph.png" width="70px"/> | **Typograph**| O Typograph é uma aplicação que serve tanto como editor de texto quanto como um lugar em que você pode pré-visualizar como o texto ficaria com base no plano de fundo (cor ou imagem) e outros fatores como, por exemplo, opacidade. | **[EXECUTAR](https://project-typograph.firebaseapp.com/?108005)** |
 | <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/alwaqt.png" width="70px"/> | **Alwaqt**| Conversor de milissegundo para segundo e vice-versa feito com Bootstrap e Vue.js | **[EXECUTAR](https://project-alwaqt.firebaseapp.com/?82418)** |
-| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/legame.png" width="70px"/> | **Legame**| Editor de botões feito com Bootstrap e Vue.js | **[EXECUTAR]()** |
+| <img src="https://raw.githubusercontent.com/Redwars22/Projetos-Vuejs/main/resx/legame.png" width="70px" height="70px"/> | **Legame**| Editor de botões feito com Bootstrap e Vue.js | **[EXECUTAR]()** |
 <hr/>
 <hr/>
 
